@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="icon" href="./Assets/icons8-apple-logo-24.png">
+    <title>Apple Store Online - Apple (IN)</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+            list-style: none;
+            font-family: Arial, sans-serif;
+        }
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 15px 5%;
+            background-color: rgb(246, 243, 243);
+            height: 60px;
+        }
+        .navbar ul {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        .navbar a, .nav-icons i {
+            color: black;
+            font-size: 16px;
+            padding: 10px;
+        }
+        .navbar a:hover, .nav-icons i:hover {
+            opacity: 0.8;
+        }
+        .offer {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: white;
+            height: 60px;
+            text-align: center;
+            font-size: 18px;
+            color: black;
+        }
+        .offer a {
+            color: blue;
+            margin-left: 5px;
+        }
+        .offer a:hover {
+            text-decoration: underline;
+        }
+        .store {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: rgb(246, 243, 243);
+            padding: 50px 5%;
+        }
+        .welcome {
+            flex: 3;
+            text-align: left;
+            padding: 50px 0;
+        }
+        .rs-shop-header, .rs-shop-subheader {
+            display: inline;
+            font-size: 48px;
+            font-weight: 600;
+            letter-spacing: -.003em;
+            line-height: 1.0834933333;
+        }
+        .rs-shop-header {
+            color: #1d1d1f;
+        }
+        .rs-shop-subheader {
+            color: #6e6e73;
+        }
+        .query {
+            flex: 2;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-right: 3%;
+        }
+        .shoppinghelp, .nearstore {
+            display: flex;
+            align-items: center;
+            background: rgb(246, 243, 243);
+            padding: 12px;
+            padding-left: 240px;
+            border-radius: 10px;
+            width: 85%;
+        }
+        .shoppinghelp img, .nearstore img {
+            width: 35px;
+            height: 35px;
+            margin-right: 10px;
+        }
+        .shoppinghelp p, .nearstore p {
+            color: black;
+            font-weight: bold;
+        }
+        .products {
+            background-color: rgb(246, 243, 243);
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            padding: 50px 5%;
+        }
+        .products div {
+            text-align: center;
+        }
+        .products img {
+            width: 120px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <nav class="navbar">
+            <ul>
+                <li class="nav-icons"><i class="fa-brands fa-apple"></i></li>
+                <li><a href="#">Store</a></li>
+                <li><a href="#">Mac</a></li>
+                <li><a href="#">iPad</a></li>
+                <li><a href="#">iPhone</a></li>
+                <li><a href="#">Watch</a></li>
+                <li><a href="#">AirPods</a></li>
+                <li><a href="#">TV & Home</a></li>
+                <li><a href="#">Entertainment</a></li>
+                <li><a href="#">Accessories</a></li>
+                <li><a href="#">Support</a></li>
+                <li class="nav-icons"><i class="fa-solid fa-magnifying-glass"></i></li>
+                <li class="nav-icons"><i class="fa-solid fa-bag-shopping"></i></li>
+            </ul>
+        </nav>
+        <div class="offer">
+            Get up to 12 months of No Cost EMI plus up to ₹8000.00 instant cashback on selected products with eligible cards. <a href="#">See offers ></a>
+        </div>
+        <div class="store">
+            <div class="welcome">
+                <h1 class="rs-shop-header">Store.</h1>
+                <div class="rs-shop-subheader">The best way to buy the <br> products you love.</div>
+            </div>
+            <div class="query">
+                <a href="#">
+                    <div class="shoppinghelp">
+                        <img src="./Assets/store-chat-specialist-icon-202309_AV1.jpg" alt="Shopping Help">
+                        <div>
+                            <p>Need shopping help?</p>
+                            <a href="#">Ask a Specialist</a>
+                        </div>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="nearstore">
+                        <img src="./Assets/icons8-apple-logo-24.png" alt="Store Location">
+                        <div>
+                            <p>Visit an Apple Store</p>
+                            <a href="#">Find one near you</a>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="products">
+            <div class="mac"><img src="./Assets/store-card-13-mac-nav-202503.png" alt="Mac"><p><b>Mac</b></p></div>
+            <div class="iPhone"><img src="./Assets/store-card-13-iphone-nav-202502.png" alt="iPhone"><p><b>iPhone</b></p></div>
+            <div class="iPad"><img src="./Assets/store-card-13-ipad-nav-202405.png" alt="iPad"><p><b>iPad</b></p></div>
+            <div class="Applewatch"><img src="./Assets/store-card-13-watch-nav-202409.png" alt="Apple Watch"><p><b>Apple Watch</b></p></div>
+            <div class="Airpods"><img src="./Assets/store-card-13-airpods-nav-202409.png" alt="AirPods"><p><b>AirPods</b></p></div>
+            <div class="Airtag"><img src="./Assets/store-card-13-airtags-nav-202108.png" alt="AirTag"><p><b>AirTag</b></p></div>
+            <div class="AppleTV"><img src="./Assets/store-card-13-appletv-nav-202210.png" alt="Apple TV"><p><b>Apple TV 4K</b></p></div>
+            <div class="HomePod"><img src="./Assets/store-card-13-homepod-nav-202301.png" alt="HomePod"><p><b>HomePod</b></p></div>
+            <div class="Accessories"><img src="./Assets/store-card-13-accessories-nav-202503.png" alt="Accessories"><p><b>Accessories</b></p></div>
+        </div>
+    </div>
+</body>
+</html>
