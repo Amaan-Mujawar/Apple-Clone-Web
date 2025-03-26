@@ -3,7 +3,7 @@
 
 This project is a frontend replica of the Apple Store Online (India) built using HTML, CSS, and FontAwesome icons. It captures Apple's sleek and minimalist design, providing an interactive user experience.
 
-🚀 **Features**:
+### **🚀 Features**:
 
 ✅ Sticky Navigation Bar with Apple-style menu items
 
@@ -15,7 +15,7 @@ This project is a frontend replica of the Apple Store Online (India) built using
 
 ✅ Responsive Design for better viewing on different screens
 
-📂 **Technologies Used**:
+### **📂 Technologies Used**:
 
 **HTML** 🏗️ - Structuring the webpage
 
@@ -23,16 +23,13 @@ This project is a frontend replica of the Apple Store Online (India) built using
 
 **FontAwesome** 🔍 - Icons for a modern UI
 
-📌 **How to Use**:
+### **📌 How to Use:**  
+1. Clone the repository:  
+   ```bash
+   (https://github.com/Amaan-Mujawar/Apple-Clone-Web.git)
+   ```
+2. Open the `index.html` file in your browser.
 
-**Clone the repository**:
-
-Copy:
-
-git clone https://github.com/Amaan-Mujawar/Apple-Clone-Web.git
-
-Open the index.html file in your browser.
-
-🌟 Live Preview:
+### **🌟 Live Preview:**
 https://amaan-mujawar.github.io/Apple-Clone-Web/
 
